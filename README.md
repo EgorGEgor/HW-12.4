@@ -21,7 +21,8 @@ JOIN customer AS c ON c.store_id = s.store_id
 GROUP BY staff_id
 HAVING COUNT(c.customer_id) > 300;
 ```
-![png](https://github.com/tverdyakov/portfolio-tverdyakov/blob/main/Experience%2C%20skills%20and%20abilities/Netology/12.%20Реляционные%20базы%20данных%20и%20администрирование%20баз%20данных/04.%20SQL.%20Часть%202/screenshots/Задание%201.png)
+<img width="640" alt="Задание 1" src="https://github.com/user-attachments/assets/eed94073-97e5-441c-8f97-31298f04fb36" />
+
 
 ### Задание 2
 
@@ -33,7 +34,8 @@ SELECT COUNT(length) AS 'Количество фильмов больше сре
 FROM film
 WHERE length > (SELECT AVG(length) FROM film);
 ```
-![png](https://github.com/tverdyakov/portfolio-tverdyakov/blob/main/Experience%2C%20skills%20and%20abilities/Netology/12.%20Реляционные%20базы%20данных%20и%20администрирование%20баз%20данных/04.%20SQL.%20Часть%202/screenshots/Задание%202.png)
+<img width="640" alt="Задание 2" src="https://github.com/user-attachments/assets/d0c8db78-be83-4e1e-9ca9-df867f919a8d" />
+
 
 ### Задание 3
 
@@ -47,6 +49,6 @@ GROUP BY DATE_FORMAT(payment_date, '%Y.%m')
 ORDER BY SUM(amount) DESC
 LIMIT 1;
 ```
-![png](https://github.com/tverdyakov/portfolio-tverdyakov/blob/main/Experience%2C%20skills%20and%20abilities/Netology/12.%20Реляционные%20базы%20данных%20и%20администрирование%20баз%20данных/04.%20SQL.%20Часть%202/screenshots/Задание%203.2.png)
+<img width="640" alt="Задание 3 2" src="https://github.com/user-attachments/assets/fd9efdd9-d3f6-42bc-b54e-424ca1b263cd" />
 
 ---
